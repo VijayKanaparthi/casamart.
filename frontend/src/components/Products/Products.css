@@ -1,0 +1,68 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.products-main-content {
+  margin-top: 60px;
+  padding: 30px;
+  margin-left: 220px;
+  flex: 1;
+}
+.products-main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+@media (max-width: 768px) {
+  .products-main-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+
+.sample-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  margin-top: -100px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  animation: crazy-bounce 3s infinite;
+}
+
+.sample-emoji {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: bounce 1s infinite;
+}
+
+.sample-title {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.sample-demo-badge {
+  background: linear-gradient(45deg, #ff6b6b, #feca57);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: rotate(-2deg);
+  margin-bottom: 20px;
+}
+
+.sample-sparkles {
+  font-size: 2rem;
+  animation: sparkle 1.5s infinite;
+}
