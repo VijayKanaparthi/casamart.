@@ -4,7 +4,7 @@
 
 ### 🌐 Live Demo
 
-    🔗 Frontend: https://casamart-new-frontend.onrender.com
+    🔗 Frontend: https://casamart-new-frontend-new.onrender.com
 
     🔗 Backend: https://casamart-new-backend.onrender.com
 
@@ -57,9 +57,9 @@ Render Deployment
 # Deploy build folder to static hosting (Render, Netlify, etc.)
 
     🌍 Deployment
-    Frontend: Deployed as a static site on Render.
+            Frontend: Deployed as a static site on Render.
 
-    Backend: Deployed as a web service on Render with MongoDB Atlas as the database.
+            Backend: Deployed as a web service on Render with MongoDB Atlas as the database.
 
 ### 🧠 Learning Highlights
 
